@@ -31,7 +31,7 @@ class ContactMobileTab extends StatelessWidget {
             decoration: BoxDecoration(
                 gradient: buttonGradi, borderRadius: BorderRadius.circular(10)),
             child: const Text(
-              'Get Started',
+              'Hire!',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w500,

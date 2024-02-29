@@ -4,7 +4,7 @@ import 'package:portfolio_website/app/sections/main/main_section.dart';
 import 'bloc/connected_bloc.dart';
 
 class NChecking extends StatelessWidget {
-  const NChecking({Key? key}) : super(key: key);
+  const NChecking({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -38,19 +38,24 @@ class NChecking extends StatelessWidget {
 }
 
 class NoConnectionErorr extends StatelessWidget {
-  const NoConnectionErorr({Key? key}) : super(key: key);
+  const NoConnectionErorr({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
+          children: [
             // LoadingAnimationWidget.staggeredDotsWave(
             //     color: primaryColor, size: 50.0),
             // SizedBox(height: 3.h),
             Text("Connection failed!"),
+            Center(
+              child: CircularProgressIndicator(
+                color: Colors.red,
+              ),
+            ),
           ],
         ),
       ),

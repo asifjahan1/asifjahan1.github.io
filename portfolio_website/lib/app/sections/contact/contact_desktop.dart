@@ -26,7 +26,7 @@ class ContactDesktop extends StatelessWidget {
           Space.y(1.w)!,
           const CustomSectionSubHeading(
             text:
-                "If you want to avail my services you can contact me at the links below.",
+                "If you want to hire me, you can contact me at the links below.",
           ),
           Space.y(2.w)!,
           Container(
@@ -78,7 +78,7 @@ class ContactDesktop extends StatelessWidget {
                             //     width: 2.0, color: theme.primaryColor),
                             borderRadius: BorderRadius.circular(10)),
                         child: const Text(
-                          'Get Started',
+                          'Hire!',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w500,
