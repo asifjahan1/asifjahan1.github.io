@@ -16,7 +16,7 @@ String miniDescription =
     "Developer providing services for programming and design content needs. Join me down below and let's get started!";
 
 String servicesSubHeading =
-    "Since the beginning of my journey as a developer, I've worked in startups and collaborated with talented people to create digital products for both business and consumer use. I offer a wide range of services, including brand design and programming.";
+    "Since the beginning of my journey as a developer, I've worked in startups and collaborated with people to create digital products for both business and consumer use.";
 //
 
 String protfolioSubHeading =
