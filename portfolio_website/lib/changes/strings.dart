@@ -8,9 +8,9 @@ String animationtxt2 = " Flutter Developer";
 String animationtxt3 = " Web Developer";
 
 //
-String contactHeadding = "Let’s try my service now!";
+String contactHeadding = "Hire me now!";
 String contactSubHeadding =
-    "Let’s work together and make everything super useful.";
+    "Let’s work together and make everything super cool.";
 //
 String miniDescription =
     "Developer providing services for programming and design content needs. Join me down below and let's get started!";
